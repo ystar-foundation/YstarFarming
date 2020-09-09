@@ -597,7 +597,7 @@ contract UniV2TokenWrapper {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;
 
-    IERC20 public u2 = IERC20(0x5dcF967a43F86D5515Bf55F749ec98C4042d5D1D);
+    IERC20 public u2 = IERC20(0xD9201007b1C3F8dc6097b50343C970961fa6a3C7);
 
     uint256 private _totalSupply;
     mapping(address => uint256) private _balances;
