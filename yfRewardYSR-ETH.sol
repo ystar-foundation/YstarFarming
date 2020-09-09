@@ -628,7 +628,7 @@ contract YstarFarmingPoolReward is UniV2TokenWrapper, IRewardDistributionRecipie
     uint256 public constant DURATION = 7 days;
 
     uint256 public initreward = 3500*1e18;
-    uint256 public starttime = 1599667200; //09/10/2020 @ 4:00pm (UTC) //2020-09-10 00:00:00(UTC+8)
+    uint256 public starttime = 1599753600; //09/10/2020 @ 4:00pm (UTC) //2020-09-11 00:00:00(UTC+8)
     uint256 public periodFinish = 0;
     uint256 public rewardRate = 0;
     uint256 public lastUpdateTime;
